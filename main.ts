@@ -420,3 +420,5 @@ mySprite = sprites.create(img`
     . . . . . f f b b f f . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
+info.setScore(0)
+info.setLife(3)
